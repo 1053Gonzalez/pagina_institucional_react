@@ -80,15 +80,15 @@ function Pokeapi() {
                             </tr>
                             <tr>
                                 <th>Altura:</th>
-                                <td>{pokemonData.height} cm</td>
+                                <td>{pokemonData.height} </td>
                             </tr>
                             <tr>
                                 <th>Peso:</th>
-                                <td>{pokemonData.weight} kg</td>
+                                <td>{pokemonData.weight} </td>
                             </tr>
                             <tr>
                                 <th>Experiencia:</th>
-                                <td>{pokemonData.base_experience} exp</td>
+                                <td>{pokemonData.base_experience} </td>
                             </tr>
                         </tbody>
                     </table>

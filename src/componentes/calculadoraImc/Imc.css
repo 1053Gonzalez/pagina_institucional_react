@@ -62,6 +62,7 @@ input {
     line-height: 2px;
     padding: 0;
     border: 1px;
+    border-radius: 4px;
     text-decoration: solid;
     border: 2px solid #ddd;
     font-size: 18px;

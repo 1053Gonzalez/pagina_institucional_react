@@ -13,7 +13,7 @@
   }
 
 .contenedor-form {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -98,7 +98,7 @@
   
   .contenedor-resultado.activo {
     display: block;
-    max-width: 400px;
+    max-width: 500px;
   }
   
   .contenedor-resultado h2 {
