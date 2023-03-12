@@ -25,7 +25,7 @@ function Calcnotas() {
 
 		var message = document.getElementById("message");
 
-		if (result >= 0 && result < 2) {
+		if (result >= 0.1 && result < 2) {
 			message.innerHTML = "Necesitas mejorar";
 		} else if (result >= 2 && result < 3) {
 			message.innerHTML = "Te falta poco";
@@ -33,8 +33,10 @@ function Calcnotas() {
 			message.innerHTML = "Lo ganaste pero debes mejorar";
 		} else if (result >= 4 && result < 5) {
 			message.innerHTML = "Lo hiciste muy bien";
-		} else {
+		} else if (result == 5) {
 			message.innerHTML = "Felicitaciones, lo hiciste PERFECTO";
+		} else {
+			message.innerHTML = "Perdiste la asignatura";
 		}
 	}
 
